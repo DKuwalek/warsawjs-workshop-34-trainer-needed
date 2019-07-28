@@ -13,8 +13,8 @@
         "clear": "rm -rf dist/",
         "clear:all": "rm -rf node_modules/ && npm run clear",
         "start:client": "browser-sync --no-open --no-ui --port 3001 src/client/",
-        "start:server": "node src/server/index.js",
-        "start:server:dev": "nodemon src/server/index.js",
+        "start:server": "node src/server/server.js",
+        "start:server:dev": "nodemon src/server/server.js",
         "lint": "eslint ."
     },
     "repository": {

@@ -16,10 +16,10 @@ function deleteClient(client) {
     clients.splice(client);
 }
 
-function broadcast(koko, message) {
-    clients.forEach((clie) => {
-        if (clie !== koko) {
-            clie.send(message);
+function broadcast(clientBroadcasting, message) {
+    clients.forEach((registeredClient) => {
+        if (registeredClient !== clientBroadcasting) {
+            registeredClient.send(message);
         }
     });
 }

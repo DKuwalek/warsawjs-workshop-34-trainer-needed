@@ -8,7 +8,7 @@
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!<br />
-Feel free to check [issues page](/issues/).
+Feel free to check [issues page](https://github.com/DKuwalek/warsawjs-workshop-34-trainer-needed/issues).
 
 ## Show your support
 
